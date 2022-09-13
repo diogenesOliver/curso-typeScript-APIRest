@@ -16,4 +16,4 @@ const movieSchema = new Schema(
 
 )
 
-export const MovieModel = model('Nivie', movieSchema)
+export const MovieModel = model('Movie', movieSchema)
