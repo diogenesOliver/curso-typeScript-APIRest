@@ -6,3 +6,5 @@ api.http
 tsconfig.json
 
 logs
+
+.gitpod.yml
