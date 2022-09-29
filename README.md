@@ -2,10 +2,8 @@
 
 - <a href='#desc'> Descrição </a>
 - <a href='#dep'> Dependências </a>
+- <a href='#inst'> Primeiros passos </a>
 - <a href='#'> Funcionalidades </a>
-
-
-<br>
 
 <h2 id='desc'> Descrição </h2>
 
@@ -44,6 +42,14 @@
 - @types/mongoose
 - @types/express
 - @types/config
+
+<br>
+
+<h2 id='inst'> Primeiros passos </h2>
+
+- O primeiro passo para a criação da API foi inicializar com `npm install` em todas as dependências e `npm install -D` para as dependências de desenvolvimento.
+
+- Após todas as instalações e configurações utilizamos o comando `npm run dev` para rodar o servidor e concectar ao banco de dados.
 
 <h2 id='func'> Funcionalidades </h2>
 
