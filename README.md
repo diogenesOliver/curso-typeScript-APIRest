@@ -44,3 +44,8 @@
 - @types/mongoose
 - @types/express
 - @types/config
+
+<h2 id='func'> Funcionalidades </h2>
+
+
+<h3> Create </h3>
