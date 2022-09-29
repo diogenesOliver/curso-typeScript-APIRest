@@ -24,8 +24,23 @@
 
 <br>
 
-- 
-- 
-- 
-- 
-- 
+<p> Abaixo temos todas as dependências utilizada para a criação dessa API </p>
+
+<br>
+
+- express
+- express-validator
+- mongoose
+- morgan
+- winston
+- config
+
+<h3> Dev Dependencies </h3>
+
+- typescript
+- ts-node-dev
+- @types/node
+- @types/morgan
+- @types/mongoose
+- @types/express
+- @types/config
