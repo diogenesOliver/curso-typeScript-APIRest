@@ -16,7 +16,11 @@
     A API consiste basicamente na possibilidade criar filmes com título, descrição, numero de estrelas entre outras funcionalidades. Dessa maneira é possivel também remover, editar e buscar filmes através de seu ID. O banco de dados utilizado para integrar com essa API é MongoDB
 </p>
 
+<br>
+
 <h2 id='dep'> Dependências </h2>
+
+<br>
 
 <p> Abaixo temos todas as dependências utilizada para a criação dessa API </p>
 
@@ -38,6 +42,8 @@
 - @types/mongoose
 - @types/express
 - @types/config
+
+<br>
 
 <h2 id='inst'> Primeiros passos </h2>
 
