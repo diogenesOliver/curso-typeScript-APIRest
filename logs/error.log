@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 22Y-09-13 19:12:24:1224 - [31merror[39m: [31mERRO no sistema: Cast to ObjectId failed for value "e" (type string) at path "_id" for model "Nivie"[39m
 22Y-09-13 19:12:27:1227 - [31merror[39m: [31mERRO no sistema: Cast to ObjectId failed for value "e" (type string) at path "_id" for model "Nivie"[39m
 22Y-09-13 19:12:33:1233 - [31merror[39m: [31mERRO no sistema: Cast to ObjectId failed for value "e" (type string) at path "_id" for model "Nivie"[39m
@@ -10,3 +11,9 @@
 22Y-09-13 19:22:40:2240 - [31merror[39m: [31mERRO no sistema: Cast to ObjectId failed for value "632102a39065e84e9640e42" (type string) at path "_id" for model "Movie"[39m
 22Y-09-14 18:08:41:841 - [31merror[39m: [31mERRO no sistema: Cast to ObjectId failed for value "as" (type string) at path "_id" for model "Movie"[39m
 22Y-09-14 18:08:41:841 - [31merror[39m: [31mERRO no sistema: Cast to ObjectId failed for value "as" (type string) at path "_id" for model "Movie"[39m
+=======
+22Y-09-27 18:08:38:838 - [31merror[39m: [31mNão foi possivel conectar ao Banco[39m
+22Y-09-27 18:09:24:924 - [31merror[39m: [31mNão foi possivel conectar ao Banco[39m
+22Y-09-27 18:12:12:1212 - [31merror[39m: [31mNão foi possivel conectar ao Banco[39m
+22Y-09-28 16:57:24:5724 - [31merror[39m: [31mNão foi possivel conectar ao Banco[39m
+>>>>>>> 82d44c10603db357b12e9d1cd2e00941f75755fb
