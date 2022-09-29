@@ -47,7 +47,9 @@
 
 <h2 id='inst'> Primeiros passos </h2>
 
-- O primeiro passo para a criação da API foi inicializar com `npm install` em todas as dependências e `npm install -D` para as dependências de desenvolvimento.
+- O primeiro passo para a criação API foi inicializar o `package.json` com `npm init -y`.
+
+- Em seguida foi executada a instalação das dependências com `npm install` e a instalação das dependências de desenvolvimento com `npm install -D`
 
 - Após todas as instalações e configurações utilizamos o comando `npm run dev` para rodar o servidor e concectar ao banco de dados.
 
