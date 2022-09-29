@@ -1,0 +1,12 @@
+22Y-09-13 19:12:24:1224 - [31merror[39m: [31mERRO no sistema: Cast to ObjectId failed for value "e" (type string) at path "_id" for model "Nivie"[39m
+22Y-09-13 19:12:27:1227 - [31merror[39m: [31mERRO no sistema: Cast to ObjectId failed for value "e" (type string) at path "_id" for model "Nivie"[39m
+22Y-09-13 19:12:33:1233 - [31merror[39m: [31mERRO no sistema: Cast to ObjectId failed for value "e" (type string) at path "_id" for model "Nivie"[39m
+22Y-09-13 19:13:38:1338 - [31merror[39m: [31mERRO no sistema: Cast to ObjectId failed for value "t" (type string) at path "_id" for model "Nivie"[39m
+22Y-09-13 19:17:40:1740 - [31merror[39m: [31mERRO no sistema: Cast to ObjectId failed for value "632100a3c7c8bf68e14d746" (type string) at path "_id" for model "Nivie"[39m
+22Y-09-13 19:19:01:191 - [31merror[39m: [31mERRO no sistema: Cast to ObjectId failed for value "s" (type string) at path "_id" for model "Nivie"[39m
+22Y-09-13 19:20:33:2033 - [31merror[39m: [31mERRO no sistema: Cast to ObjectId failed for value "s" (type string) at path "_id" for model "Movie"[39m
+22Y-09-13 19:22:05:225 - [31merror[39m: [31mERRO no sistema: Cast to ObjectId failed for value "s" (type string) at path "_id" for model "Movie"[39m
+22Y-09-13 19:22:05:225 - [31merror[39m: [31mERRO no sistema: Cast to ObjectId failed for value "s" (type string) at path "_id" for model "Movie"[39m
+22Y-09-13 19:22:40:2240 - [31merror[39m: [31mERRO no sistema: Cast to ObjectId failed for value "632102a39065e84e9640e42" (type string) at path "_id" for model "Movie"[39m
+22Y-09-14 18:08:41:841 - [31merror[39m: [31mERRO no sistema: Cast to ObjectId failed for value "as" (type string) at path "_id" for model "Movie"[39m
+22Y-09-14 18:08:41:841 - [31merror[39m: [31mERRO no sistema: Cast to ObjectId failed for value "as" (type string) at path "_id" for model "Movie"[39m
