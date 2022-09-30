@@ -2,7 +2,7 @@
 
 - <a href='#desc'> Descrição </a>
 - <a href='#dep'> Dependências </a>
-- <a href='#'> Funcionalidades </a>
+- <a href='#func'> Funcionalidades </a>
 
 
 <br>
@@ -44,3 +44,37 @@
 - @types/mongoose
 - @types/express
 - @types/config
+
+<br>
+
+<h2 id='func'> Funcionalidades </h2>
+
+<br>
+
+- <a href='#create'> Criar </a>
+- <a href='#'> Buscar </a>
+- <a href='#'> Editar </a>
+- <a href='#'> Remover </a>
+
+<br>
+
+<h2 id='create'> Criar </h2>
+
+<p>
+    Essa funcionalidade consiste em basicamente inserir um novo filme no banco de dados. Para executar essa funcionalidade é o preciso seguir um modelo de dados obrigatórios para retorna um status 200 (OK).
+</p>
+
+<br>
+
+<p> Abaixo temos o Schema de dados obrigatórios: </p>
+
+```js
+    {
+        title: {type: String},
+        rating: { type: Number },
+        description: { type: String },
+        director: { type: String },
+        stars: { type: Array },
+        poster: { stype: String }
+    }
+```
