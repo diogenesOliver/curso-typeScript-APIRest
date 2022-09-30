@@ -61,7 +61,7 @@
 <h2 id='create'> Criar </h2>
 
 <p>
-    Essa funcionalidade consiste em basicamente inserir um novo filme no banco de dados. Para executar essa funcionalidade é o preciso seguir um modelo de dados obrigatórios para retorna um status 200 (OK).
+    Essa funcionalidade consiste em basicamente inserir um novo filme no banco de dados. Para executar essa funcionalidade é o preciso seguir um modelo de dados obrigatórios para retornar um status 200 (OK).
 </p>
 
 <br>
