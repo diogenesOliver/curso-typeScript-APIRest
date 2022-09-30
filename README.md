@@ -64,8 +64,6 @@
 - <a href='#'> Editar </a>
 - <a href='#'> Remover </a>
 
-<br>
-
 <h2 id='create'> Criar </h2>
 
 <p>
