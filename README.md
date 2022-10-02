@@ -77,10 +77,10 @@
 ```js
     {
         title: {type: String},
-        rating: { type: Number },
-        description: { type: String },
-        director: { type: String },
-        stars: { type: Array },
-        poster: { stype: String }
+        rating: {type: Number},
+        description: {type: String},
+        director: {type: String},
+        stars: {type: Array},
+        poster: {stype: String}
     }
 ```
