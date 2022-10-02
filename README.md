@@ -57,8 +57,6 @@
 
 <h2 id='func'> Funcionalidades </h2>
 
-<br>
-
 - <a href='#create'> Criar </a>
 - <a href='#'> Buscar </a>
 - <a href='#'> Editar </a>
