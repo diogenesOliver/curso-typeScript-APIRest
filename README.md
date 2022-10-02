@@ -58,9 +58,11 @@
 <h2 id='func'> Funcionalidades </h2>
 
 - <a href='#create'> Criar </a>
-- <a href='#'> Buscar </a>
+- <a href='#busc'> Buscar </a>
 - <a href='#'> Editar </a>
 - <a href='#'> Remover </a>
+
+<br>
 
 <h2 id='create'> Criar </h2>
 
@@ -82,3 +84,19 @@
         poster: {stype: String}
     }
 ```
+
+Após acessar a rota ``` /movie ``` com o método POST e em seguida inserir os dados obrigatórios como descrito acima, criamos um novo filme e inserimos no banco de dados.
+
+Essa funcionalidade contém também alguns Middlwares que verificam se todos os dados foram preenchidos corretamente, caso contrário é exibido uma mensagem de erro com status 404.
+
+<br>
+
+<h2 id='busc'> Buscar </h2>
+
+<p>
+    A funcionalidade buscar consiste basicamente na possibilidade de encontrar um filme específico no banco de dados através do seu ID.
+</p>
+
+Temos a rota ` /movie/:id ` que é uma rota dinâmica, ao inserir o ID de algum filme no ` :id ` nos é retornado apenas o filme que contém aquele ID.
+
+Caso o ID esteja errado ou não exista mais no banco de dados, nos é retornado uma mensagem avisando que aquele filme não pode ser econtrado.
