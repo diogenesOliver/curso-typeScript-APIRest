@@ -117,8 +117,14 @@ Ao acessar a rota ` /movie/:id ` com o método ` PATCH ` podemos encontrar um fi
 
 <br>
 
-<h2 id='edit'> Remove </h2>
+<h2 id='edit'> Remover </h2>
 
 <p>
-    
+    Essa funcionalidade consiste basicamente na possibilidade de remover um filme do banco de dados.
+</p>
+
+Ao acessar a rota ` /movie/:id ` com método ` DELETE ` especificamos o ID de um filme e o mesmo será removido do banco de dados.
+
+<p>
+    Caso o ID não possa ser encontrado é retornada uma mensagem de erro nos informando que aquele filme não pode ser encontrado. Caso contrário é retornada uma mensagem de sucesso.
 </p>
