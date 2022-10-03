@@ -1,4 +1,4 @@
-# API RestFul ( Documentação )
+# Movie API - Documentação
 
 - <a href='#desc'> Descrição </a>
 - <a href='#dep'> Dependências </a>
@@ -100,3 +100,25 @@ Essa funcionalidade contém também alguns Middlwares que verificam se todos os 
 Temos a rota ` /movie/:id ` que é uma rota dinâmica, ao inserir o ID de algum filme no ` :id ` nos é retornado apenas o filme que contém aquele ID.
 
 Caso o ID esteja errado ou não exista mais no banco de dados, nos é retornado uma mensagem avisando que aquele filme não pode ser econtrado.
+
+<br>
+
+<h2 id='edit'> Editar </h2>
+
+<p>
+    Essa funcionalidade consiste basicamente na possibilidade de editar um ou mais dados de um filme, como por exemplo mudar a descrição ou o título do filme.
+</p>
+
+Ao acessar a rota ` /movie/:id ` com o método ` PATCH ` podemos encontrar um filme no banco de dados especificando o seu ID e dessa forma atualizar os dados daquele filme sem modificar o ID.
+
+<p>
+    Caso o ID não possa ser encontrado é retornada uma mensagem de erro.
+</p>
+
+<br>
+
+<h2 id='edit'> Remove </h2>
+
+<p>
+    
+</p>
