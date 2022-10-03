@@ -152,7 +152,7 @@ Ao acessar a rota ` /movie/:id ` com método ` DELETE ` especificamos o ID de um
 
 <br>
 
-```ts
+```js
     async function connect(){
 
         const dbUri = config.get<string>('dbUri')
