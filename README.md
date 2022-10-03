@@ -87,7 +87,7 @@
 
 <p> Abaixo temos o Schema de dados obrigatórios: </p>
 
-```js
+```ts
     {
         title: {type: String},
         rating: {type: Number},
@@ -152,7 +152,7 @@ Ao acessar a rota ` /movie/:id ` com método ` DELETE ` especificamos o ID de um
 
 <br>
 
-```js
+```ts
     async function connect(){
 
         const dbUri = config.get<string>('dbUri')
