@@ -1,5 +1,11 @@
 # Movie API - Documentação
 
+
+<img style="height: 30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+          
+
+<br>
+
 - <a href='#desc'> Descrição </a>
 - <a href='#dep'> Dependências </a>
 - <a href='#inst'> Primeiros passos </a>
@@ -128,3 +134,38 @@ Ao acessar a rota ` /movie/:id ` com método ` DELETE ` especificamos o ID de um
 <p>
     Caso o ID não possa ser encontrado é retornada uma mensagem de erro nos informando que aquele filme não pode ser encontrado. Caso contrário é retornada uma mensagem de sucesso.
 </p>
+
+<br>
+
+<h2> MongoDB <img style="height: 30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" /> </h2>
+
+<p>
+    Para integrar com essa API e salvar todos os dados foi utilizado o banco de dados MongoDB. Abaixo temos a função utilizada para conectar ao banco.
+</p>
+
+<br>
+
+```js
+    async function connect(){
+
+        const dbUri = config.get<string>('dbUri')
+
+        try{
+
+            await mongoose.connect(dbUri)
+            Logger.info('Sucesso ao conectar ao banco de dados!')
+
+        }catch(e){
+            Logger.error('Não foi possivel conectar ao Banco')
+            Logger.error(`ERROR - ${e}`)
+            process.exit(1)
+        }
+
+    }
+```
+<br>
+
+<h2> Créditos </h2>
+
+Como dito anteriormente essa API foi desenvolvida acompanhando o curso de introdução ao TypeScript do intrutos ` Matheus Battisti ` na plataforma `Udemy`.
+
