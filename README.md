@@ -1,14 +1,15 @@
+<center>
+
 # Movie API - Documentação
 
 
-<div>
 
 <img style="height: 30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
 <img style="height: 30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
 <img style="height: 30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" />
           
 
-</div>
+</center>
                   
 
 <br>
