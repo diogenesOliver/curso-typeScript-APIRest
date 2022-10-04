@@ -42,7 +42,7 @@
 - winston
 - config
 
-<h3> Dev Dependencies </h3>
+<h3> Dependências de desenvolvimento </h3>
 
 - typescript
 - ts-node-dev
